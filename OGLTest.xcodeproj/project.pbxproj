@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		376178CD15EF941400C191A0 /* Shader.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 376178CB15EF941400C191A0 /* Shader.fsh */; };
-		376178CE15EF941400C191A0 /* Shader.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 376178CC15EF941400C191A0 /* Shader.vsh */; };
+		3759E52D15F53F17001DC5A6 /* plane.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3759E52C15F53F17001DC5A6 /* plane.obj */; };
+		3759E53015F54605001DC5A6 /* cube.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3759E52F15F54605001DC5A6 /* cube.obj */; };
+		3759E53215F54772001DC5A6 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3759E53115F54772001DC5A6 /* sphere.obj */; };
+		3759E53415F5488F001DC5A6 /* polyhedron.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3759E53315F5488F001DC5A6 /* polyhedron.obj */; };
+		3759E54015F551D0001DC5A6 /* mTorus.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3759E53F15F551D0001DC5A6 /* mTorus.obj */; };
+		3759E54215F5536A001DC5A6 /* torus.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3759E54115F5536A001DC5A6 /* torus.obj */; };
+		3759E54415F55856001DC5A6 /* polyhedron3.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3759E54315F55856001DC5A6 /* polyhedron3.obj */; };
+		378FD77915F82A7300AD03CD /* PointIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FD77815F82A7300AD03CD /* PointIndex.m */; };
+		37B32CC915F3A49500E92653 /* Vertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 37B32CC815F3A49500E92653 /* Vertex.glsl */; };
+		37B32CCB15F3A4B900E92653 /* Fragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 37B32CCA15F3A4B900E92653 /* Fragment.glsl */; };
 		37EBC8D915EE437500CCAD74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EBC8D815EE437500CCAD74 /* UIKit.framework */; };
 		37EBC8DB15EE437500CCAD74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EBC8DA15EE437500CCAD74 /* Foundation.framework */; };
 		37EBC8DD15EE437500CCAD74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EBC8DC15EE437500CCAD74 /* CoreGraphics.framework */; };
@@ -20,11 +28,21 @@
 		37EBC8F415EE439100CCAD74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EBC8F115EE439100CCAD74 /* QuartzCore.framework */; };
 		37EBC8F715EE43E700CCAD74 /* OGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EBC8F615EE43E700CCAD74 /* OGLKViewController.m */; };
 		37EBC8F915EE445400CCAD74 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EBC8F815EE445400CCAD74 /* MainStoryboard.storyboard */; };
+		37FC615715F7BE3D00D82ECC /* monkey.obj in Resources */ = {isa = PBXBuildFile; fileRef = 37FC615615F7BE3D00D82ECC /* monkey.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		376178CB15EF941400C191A0 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
-		376178CC15EF941400C191A0 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		3759E52C15F53F17001DC5A6 /* plane.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plane.obj; sourceTree = "<group>"; };
+		3759E52F15F54605001DC5A6 /* cube.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube.obj; sourceTree = "<group>"; };
+		3759E53115F54772001DC5A6 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		3759E53315F5488F001DC5A6 /* polyhedron.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polyhedron.obj; sourceTree = "<group>"; };
+		3759E53F15F551D0001DC5A6 /* mTorus.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mTorus.obj; sourceTree = "<group>"; };
+		3759E54115F5536A001DC5A6 /* torus.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = torus.obj; sourceTree = "<group>"; };
+		3759E54315F55856001DC5A6 /* polyhedron3.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polyhedron3.obj; sourceTree = "<group>"; };
+		378FD77715F82A7300AD03CD /* PointIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointIndex.h; sourceTree = "<group>"; };
+		378FD77815F82A7300AD03CD /* PointIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointIndex.m; sourceTree = "<group>"; };
+		37B32CC815F3A49500E92653 /* Vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vertex.glsl; sourceTree = "<group>"; };
+		37B32CCA15F3A4B900E92653 /* Fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fragment.glsl; sourceTree = "<group>"; };
 		37EBC8D415EE437500CCAD74 /* OGLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OGLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37EBC8D815EE437500CCAD74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37EBC8DA15EE437500CCAD74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -41,6 +59,7 @@
 		37EBC8F515EE43E700CCAD74 /* OGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLKViewController.h; sourceTree = "<group>"; };
 		37EBC8F615EE43E700CCAD74 /* OGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLKViewController.m; sourceTree = "<group>"; };
 		37EBC8F815EE445400CCAD74 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		37FC615615F7BE3D00D82ECC /* monkey.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = monkey.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +79,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		376178CA15EF941400C191A0 /* Shaders */ = {
-			isa = PBXGroup;
-			children = (
-				376178CB15EF941400C191A0 /* Shader.fsh */,
-				376178CC15EF941400C191A0 /* Shader.vsh */,
-			);
-			path = Shaders;
-			sourceTree = "<group>";
-		};
 		37EBC8C915EE437500CCAD74 = {
 			isa = PBXGroup;
 			children = (
@@ -102,13 +112,24 @@
 		37EBC8DE15EE437500CCAD74 /* OGLTest */ = {
 			isa = PBXGroup;
 			children = (
+				37FC615615F7BE3D00D82ECC /* monkey.obj */,
+				3759E54315F55856001DC5A6 /* polyhedron3.obj */,
+				3759E54115F5536A001DC5A6 /* torus.obj */,
+				3759E53F15F551D0001DC5A6 /* mTorus.obj */,
+				3759E53315F5488F001DC5A6 /* polyhedron.obj */,
+				3759E53115F54772001DC5A6 /* sphere.obj */,
+				3759E52F15F54605001DC5A6 /* cube.obj */,
+				3759E52C15F53F17001DC5A6 /* plane.obj */,
 				37EBC8E715EE437500CCAD74 /* OGLTestAppDelegate.h */,
 				37EBC8E815EE437500CCAD74 /* OGLTestAppDelegate.m */,
 				37EBC8F515EE43E700CCAD74 /* OGLKViewController.h */,
 				37EBC8F615EE43E700CCAD74 /* OGLKViewController.m */,
-				376178CA15EF941400C191A0 /* Shaders */,
 				37EBC8F815EE445400CCAD74 /* MainStoryboard.storyboard */,
 				37EBC8DF15EE437500CCAD74 /* Supporting Files */,
+				37B32CC815F3A49500E92653 /* Vertex.glsl */,
+				37B32CCA15F3A4B900E92653 /* Fragment.glsl */,
+				378FD77715F82A7300AD03CD /* PointIndex.h */,
+				378FD77815F82A7300AD03CD /* PointIndex.m */,
 			);
 			path = OGLTest;
 			sourceTree = "<group>";
@@ -178,6 +199,16 @@
 			files = (
 				37EBC8E315EE437500CCAD74 /* InfoPlist.strings in Resources */,
 				37EBC8F915EE445400CCAD74 /* MainStoryboard.storyboard in Resources */,
+				37B32CC915F3A49500E92653 /* Vertex.glsl in Resources */,
+				37B32CCB15F3A4B900E92653 /* Fragment.glsl in Resources */,
+				3759E52D15F53F17001DC5A6 /* plane.obj in Resources */,
+				3759E53015F54605001DC5A6 /* cube.obj in Resources */,
+				3759E53215F54772001DC5A6 /* sphere.obj in Resources */,
+				3759E53415F5488F001DC5A6 /* polyhedron.obj in Resources */,
+				3759E54015F551D0001DC5A6 /* mTorus.obj in Resources */,
+				3759E54215F5536A001DC5A6 /* torus.obj in Resources */,
+				3759E54415F55856001DC5A6 /* polyhedron3.obj in Resources */,
+				37FC615715F7BE3D00D82ECC /* monkey.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,8 +222,7 @@
 				37EBC8E515EE437500CCAD74 /* main.m in Sources */,
 				37EBC8E915EE437500CCAD74 /* OGLTestAppDelegate.m in Sources */,
 				37EBC8F715EE43E700CCAD74 /* OGLKViewController.m in Sources */,
-				376178CD15EF941400C191A0 /* Shader.fsh in Sources */,
-				376178CE15EF941400C191A0 /* Shader.vsh in Sources */,
+				378FD77915F82A7300AD03CD /* PointIndex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
